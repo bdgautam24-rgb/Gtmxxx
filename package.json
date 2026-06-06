@@ -1,7 +1,7 @@
 {
-  "name": "stooq-worker-api",
+  "name": "stooq-cache-api",
   "version": "1.0.0",
-  "description": "Fetch Stooq data via Cron and bypass bot protection",
+  "description": "Fetch Stooq data using Cache API to bypass KV and Cron",
   "main": "src/index.js",
   "scripts": {
     "deploy": "wrangler deploy"
