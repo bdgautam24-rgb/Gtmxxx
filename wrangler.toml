@@ -1,4 +1,4 @@
-name = "stooq-data-api"
+name = "xauusdbd"
 main = "src/index.js"
 compatibility_date = "2023-10-30"
 workers_dev = true
