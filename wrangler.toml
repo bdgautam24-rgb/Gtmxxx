@@ -2,13 +2,3 @@ name = "stooq-data-api"
 main = "src/index.js"
 compatibility_date = "2023-10-30"
 workers_dev = true
-
-# প্রতি ২ মিনিট পর পর রান করার কমান্ড
-[triggers]
-crons = ["*/2 * * * *"]
-
-# KV ডাটাবেস বাইন্ডিং
-[[kv_namespaces]]
-binding = "STOOQ_KV"
-# Cloudflare ড্যাশবোর্ড থেকে KV তৈরি করে তার ID এখানে দিন
-id = "YOUR_KV_NAMESPACE_ID_HERE"
