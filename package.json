@@ -1,0 +1,12 @@
+{
+  "name": "stooq-worker-api",
+  "version": "1.0.0",
+  "description": "Fetch Stooq data via Cron and bypass bot protection",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
